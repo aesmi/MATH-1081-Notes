@@ -35,3 +35,28 @@
 7. Distributive Laws:
    - A ∪ (B ∩ C) = (A ∪ B) ∩ (A ∪ C)
    - A ∩ (B ∪ C) = (A ∩ B) ∪ (A ∩ C)
+
+## Cardinality
+- The cardinality of a set A, denoted by |A|, is the number of elements in set A.
+- For example, if A = {1, 2, 3}, then |A| = 3.
+
+### Cardinality Formulas
+1. Cardinality of a Finite Set:
+   - If A is a finite set containing distinct elements, the cardinality of A is given by the formula: `|A| = n`, where n is the number of elements in set A.
+
+2. Cardinality of the Power Set:
+   - If A is a finite set, the power set of A (denoted by P(A)) is the set containing all possible subsets of A, including the empty set and A itself. The cardinality of the power set of A is given by the formula: `|P(A)| = 2^n`, where n is the number of elements in set A.
+
+3. Cardinality of the Cartesian Product:
+   - If A and B are finite sets, the cardinality of the Cartesian product A × B is given by the formula: `|A × B| = |A| * |B|`, where |A| represents the cardinality of set A and |B| represents the cardinality of set B.
+
+4. Cardinality of the Union of Disjoint Sets:
+   - If A and B are disjoint (non-overlapping) sets, meaning A ∩ B = ∅, then the cardinality of their union is given by the formula: `|A ∪ B| = |A| + |B|`.
+
+5. Cardinality of the Union of Non-disjoint Sets:
+   - If A and B are sets with some elements in common, then the cardinality of their union is given by the formula: `|A ∪ B| = |A| + |B| - |A ∩ B|`.
+
+6. Cardinality of the Set Difference:
+   - If A and B are sets, the cardinality of the set difference A - B (or A \ B) is given by the formula: `|A - B| = |A| - |A ∩ B|`.
+
+These formulas provide a basis for calculating the cardinality of different types of sets and set operations.
